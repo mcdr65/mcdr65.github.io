@@ -234,22 +234,38 @@ sKvent&lt;-split(data$ncumul_vent,data$Kanton)</code></pre>
 <pre class="r"><code>CasesKanton&lt;-sapply(sKcases,function(x){x[max(which(!is.na(x)))]})
 CasesKanton</code></pre>
 <pre><code>  AG   AI   AR   BE   BL   BS   FL   FR   GE   GL   GR   JU   LU   NE   NW   OW 
+<<<<<<< HEAD
  822   24   77 1375  722  859   77  796 4271   67  704  182  560  536  100   62 
   SG   SH   SO   SZ   TG   TI   UR   VD   VS   ZG   ZH 
  632   53  294  215  264 2776   74 4424 1565  168 2929 </code></pre>
 <pre class="r"><code>sum(CasesKanton)</code></pre>
 <pre><code>[1] 24628</code></pre>
+=======
+ 822   24   77 1335  711  859   77  786 4216   67  680  179  542  516   96   62 
+  SG   SH   SO   SZ   TG   TI   UR   VD   VS   ZG   ZH 
+ 632   53  294  215  255 2776   72 4315 1525  165 2898 </code></pre>
+<pre class="r"><code>sum(CasesKanton)</code></pre>
+<pre><code>[1] 24249</code></pre>
+>>>>>>> 7dab7ed710941be2a1d893dcee686695719cbdc2
 </div>
 <div id="deceased" class="section level2">
 <h2><span class="header-section-number">4.2</span> Deceased</h2>
 <pre class="r"><code>FatKanton&lt;-sapply(sKfatal,function(x){x[max(which(!is.na(x)))]})
 FatKanton</code></pre>
 <pre><code> AG  AI  AR  BE  BL  BS  FL  FR  GE  GL  GR  JU  LU  NE  NW  OW  SG  SH  SO  SZ 
+<<<<<<< HEAD
  17  NA   3  42  22  33   1  49 133   2  35   2   9  34   0   0  17   1   5  10 
  TG  TI  UR  VD  VS  ZG  ZH 
   8 227   4 204  75   3  64 </code></pre>
 <pre class="r"><code>sum(FatKanton,na.rm=TRUE)</code></pre>
 <pre><code>[1] 1000</code></pre>
+=======
+ 17  NA   3  38  21  33   1  46 125   2  35  NA   9  34   0   0  17   1   5  10 
+ TG  TI  UR  VD  VS  ZG  ZH 
+  8 227   4 185  73   3  62 </code></pre>
+<pre class="r"><code>sum(FatKanton,na.rm=TRUE)</code></pre>
+<pre><code>[1] 959</code></pre>
+>>>>>>> 7dab7ed710941be2a1d893dcee686695719cbdc2
 </div>
 <div id="exponentielles-wachstum-covid-19" class="section level2">
 <h2><span class="header-section-number">4.3</span> Exponentielles Wachstum Covid-19</h2>
