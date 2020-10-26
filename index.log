@@ -1,0 +1,1093 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdftex 2018.10.12)  23 OCT 2020 13:37
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**\input index.tex
+(./index.tex
+./index.tex:5: Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.5   html_
+           document:
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./index.tex:7: You can't use `macro parameter character #' in math mode.
+l.7     #
+         self_contained: yes
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./index.tex:8: You can't use `macro parameter character #' in math mode.
+l.8     #
+         toc: yes
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./index.tex:9: You can't use `macro parameter character #' in math mode.
+l.9     #
+         toc_depth: 3
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./index.tex:10: You can't use `macro parameter character #' in math mode.
+l.10     #
+          toc_float:
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./index.tex:11: You can't use `macro parameter character #' in math mode.
+l.11     #
+            collapsed: no
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./index.tex:14: Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.14 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (19.454pt too wide) in paragraph at lines 1--14
+[]\tenrm --- ti-tle: "Ex-po-nen-tial Growth COVID 19 in Switzer-land" au-thor: 
+"An-dre Me-ichtry" out-put: html$[]\teni ocument \tenrm :|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm | (ligature ---)
+.\discretionary
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm t
+.etc.
+
+./index.tex:22: You can't use `macro parameter character #' in vertical mode.
+l.22 #
+       Problem
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ¼ in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ¶ in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ¤ in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ¶ in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ¼ in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ¶ in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ¤ in font cmr10!
+./index.tex:37: You can't use `macro parameter character #' in horizontal mode.
+l.37 max <- 3e06*20e06 #
+                        #Volumen Allianz-Arena
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./index.tex:37: You can't use `macro parameter character #' in horizontal mode.
+l.37 max <- 3e06*20e06 ##
+                         Volumen Allianz-Arena
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./index.tex:42: Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   ^
+l.42 expwachs <- function(t) {y<-1*2^
+                                     (t/1)}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./index.tex:42: Extra }, or forgotten $.
+l.42 expwachs <- function(t) {y<-1*2^(t/1)}
+                                           
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./index.tex:50: Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.50 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (5.07936pt too wide) in paragraph at lines 36--50
+[]\tenrm ```r max <- 3e06*20e06 Vol-u-men Allianz-Arena halb <- max/2 max2<-max
+*2 tmax<-50 t<-seq(0,tmax,by=0.1)|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm \ (ligature ``)
+.\tenrm `
+.\tenrm r
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.etc.
+
+
+Overfull \hbox (22.07323pt too wide) in paragraph at lines 36--50
+\teni max; lty \tenrm = 2\teni ; col \tenrm = "\teni red\tenrm ")\teni abline\t
+enrm (\teni v \tenrm = \teni t\tenrm [458]\teni ; lty \tenrm = 2\teni ; col \te
+nrm = "\teni red\tenrm ")\teni abline\tenrm (\teni h \tenrm = \teni halb; lty \
+tenrm = 2\teni ; col \tenrm = "\teni blue\tenrm ")\teni abline\tenrm (\teni v \
+tenrm =|
+
+\hbox(7.5+2.5)x469.75499
+.\teni m
+.\teni a
+.\teni x
+.\teni ;
+.\glue(\thinmuskip) 1.66663
+.etc.
+
+./index.tex:56: You can't use `macro parameter character #' in vertical mode.
+l.56 #
+       Exponentialfunktion
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ¤ in font cmr10!
+./index.tex:65: Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   ^
+l.65 curve(2^
+             x,add=TRUE,lty=3)
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./index.tex:68: Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.68 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./index.tex:71: You can't use `macro parameter character #' in vertical mode.
+l.71 #
+       Exponentielles Wachstum
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./index.tex:76: Undefined control sequence.
+l.76 $$\boxed
+             {x(t)=x_0e^{kt}=x_0e^{t/\tau}=x_02^{t/T}},$$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./index.tex:78: Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   ^
+l.78 ...T$: doubling time, $k$: growth constant. ^
+                                                  [Proof: $$x(t)=x_0e^{kt}=x...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./index.tex:78: Undefined control sequence.
+l.78 ...$x(t)=x_0e^{kt}=x_0e^{t/\tau}=x_0 2^{\frac
+                                                  {t}{\tau}\log_2e}=x_02^{\f...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./index.tex:78: Undefined control sequence.
+l.78 ...=x_0 2^{\frac{t}{\tau}\log_2e}=x_02^{\frac
+                                                  {t}{\tau} \frac{1}{\log 2 ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./index.tex:78: Undefined control sequence.
+l.78 ...}{\tau}\log_2e}=x_02^{\frac{t}{\tau} \frac
+                                                  {1}{\log 2 }}=x_02^{t/T}$$]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./index.tex:79: Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.79 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./index.tex:83: You can't use `macro parameter character #' in vertical mode.
+l.83 #
+       Daten Covid-19
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./index.tex:85: Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.85 <https://github.com/openZH/covid_
+                                      19>
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./index.tex:86: Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.86 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./index.tex:89: Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.89 ...://raw.githubusercontent.com/openZH/covid_
+                                                  19/master/COVID19_Fallzahl...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./index.tex:92: Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.92 sKcases<-split(data$ncumul_
+                                conf,data$Kanton)
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (140.04697pt too wide) in paragraph at lines 88--98
+[]\tenrm ```r data<-read.csv("https://raw.githubusercontent.com/openZH/covid$[]
+9\teni =master=COVID\tenrm 19[]\teni allzahlen[]H[]otal:csv\tenrm ")\teni names
+\tenrm (\teni data\tenrm )[3] \teni <|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm \ (ligature ``)
+.\tenrm `
+.\tenrm r
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.etc.
+
+
+Overfull \hbox (98.99135pt too wide) in paragraph at lines 88--98
+\tensy ^^@\tenrm "\teni Kanton\tenrm "\teni data < \tensy ^^@\teni data\tenrm [
+\teni ; \tensy ^^@\tenrm 11]\teni sKcases < \tensy ^^@\teni split\tenrm (\teni 
+data$\tenrm ncumul$[]\teni onf; data$\tenrm Kanton) sKfatal<-split(data$\teni n
+cumul[]eceased; data$\tenrm Kanton)|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tensy ^^@
+.\tenrm "
+.\teni K
+.\kern0.71527
+.\teni a
+.etc.
+
+
+Overfull \hbox (111.34203pt too wide) in paragraph at lines 88--98
+\tenrm sKhosp<-split(data$\teni ncumul[]osp; data$\tenrm Kanton) sKICU<-split(d
+ata$\teni ncumul[]CU; data$\tenrm Kanton) sKvent<-split(data$\teni ncumul[]ent;
+ data$\tenrm Kanton)|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm s
+.\tenrm K
+.\tenrm h
+.\tenrm o
+.\tenrm s
+.etc.
+
+./index.tex:99: You can't use `macro parameter character #' in vertical mode.
+l.99 #
+      # Reported cases
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./index.tex:99: You can't use `macro parameter character #' in vertical mode.
+l.99 ##
+        Reported cases
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./index.tex:121: You can't use `macro parameter character #' in vertical mode.
+l.121 #
+       # Deceased
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./index.tex:121: You can't use `macro parameter character #' in vertical mode.
+l.121 ##
+         Deceased
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./index.tex:142: You can't use `macro parameter character #' in vertical mode.
+l.142 #
+       # Exponentielles Wachstum Covid-19
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./index.tex:142: You can't use `macro parameter character #' in vertical mode.
+l.142 ##
+         Exponentielles Wachstum Covid-19
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+./index.tex:156: Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.156 ....com/CSSEGISandData/COVID-19/master/csse_
+                                                  covid_19_data/csse_covid_1...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (384.95038pt too wide) in paragraph at lines 155--160
+[]\tenrm ```r data<-read.csv("https://raw.githubusercontent.com/CSSEGISandData/
+COVID-19/master/csse$[]\teni ovid[]\tenrm 9[]\teni ata=csse[]ovid[]\tenrm 9[]\t
+eni ime[]eries=time[]eries[]ovid\tenrm 19[]\teni onfirmed[]lobal:csv\tenrm "\te
+ni ; check:names \tenrm =|
+
+\hbox(7.5+2.86108)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm \ (ligature ``)
+.\tenrm `
+.\tenrm r
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.etc.
+
+./index.tex:166: You can't use `macro parameter character #' in horizontal mode
+.
+l.166 #
+       #################################################
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./index.tex:166: You can't use `macro parameter character #' in horizontal mode
+.
+l.166 ##
+        ################################################
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./index.tex:166: You can't use `macro parameter character #' in horizontal mode
+.
+l.166 ###
+         ###############################################
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./index.tex:166: You can't use `macro parameter character #' in horizontal mode
+.
+l.166 ####
+          ##############################################
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./index.tex:166: You can't use `macro parameter character #' in horizontal mode
+.
+l.166 #####
+           #############################################
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./index.tex:166: You can't use `macro parameter character #' in horizontal mode
+.
+l.166 ######
+            ############################################
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./index.tex:166: You can't use `macro parameter character #' in horizontal mode
+.
+l.166 #######
+             ###########################################
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./index.tex:166: You can't use `macro parameter character #' in horizontal mode
+.
+l.166 ########
+              ##########################################
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./index.tex:166: You can't use `macro parameter character #' in horizontal mode
+.
+l.166 #########
+               #########################################
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./index.tex:166: You can't use `macro parameter character #' in horizontal mode
+.
+l.166 ##########
+                ########################################
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./index.tex:166: You can't use `macro parameter character #' in horizontal mode
+.
+l.166 ###########
+                 #######################################
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./index.tex:166: You can't use `macro parameter character #' in horizontal mode
+.
+l.166 ############
+                  ######################################
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./index.tex:166: You can't use `macro parameter character #' in horizontal mode
+.
+l.166 #############
+                   #####################################
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./index.tex:166: You can't use `macro parameter character #' in horizontal mode
+.
+l.166 ##############
+                    ####################################
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./index.tex:166: You can't use `macro parameter character #' in horizontal mode
+.
+l.166 ###############
+                     ###################################
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./index.tex:166: You can't use `macro parameter character #' in horizontal mode
+.
+l.166 ################
+                      ##################################
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./index.tex:166: You can't use `macro parameter character #' in horizontal mode
+.
+l.166 #################
+                       #################################
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./index.tex:166: You can't use `macro parameter character #' in horizontal mode
+.
+l.166 ##################
+                        ################################
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./index.tex:166: You can't use `macro parameter character #' in horizontal mode
+.
+l.166 ###################
+                         ###############################
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./index.tex:166: You can't use `macro parameter character #' in horizontal mode
+.
+l.166 ####################
+                          ##############################
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./index.tex:166: You can't use `macro parameter character #' in horizontal mode
+.
+l.166 #####################
+                           #############################
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./index.tex:166: You can't use `macro parameter character #' in horizontal mode
+.
+l.166 ######################
+                            ############################
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./index.tex:166: You can't use `macro parameter character #' in horizontal mode
+.
+l.166 #######################
+                             ###########################
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./index.tex:166: You can't use `macro parameter character #' in horizontal mode
+.
+l.166 ########################
+                              ##########################
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./index.tex:166: You can't use `macro parameter character #' in horizontal mode
+.
+l.166 #########################
+                               #########################
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./index.tex:166: You can't use `macro parameter character #' in horizontal mode
+.
+l.166 ##########################
+                                ########################
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./index.tex:166: You can't use `macro parameter character #' in horizontal mode
+.
+l.166 ###########################
+                                 #######################
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./index.tex:166: You can't use `macro parameter character #' in horizontal mode
+.
+l.166 ############################
+                                  ######################
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./index.tex:166: You can't use `macro parameter character #' in horizontal mode
+.
+l.166 #############################
+                                   #####################
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./index.tex:166: You can't use `macro parameter character #' in horizontal mode
+.
+l.166 ##############################
+                                    ####################
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./index.tex:166: You can't use `macro parameter character #' in horizontal mode
+.
+l.166 ###############################
+                                     ###################
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./index.tex:166: You can't use `macro parameter character #' in horizontal mode
+.
+l.166 ################################
+                                      ##################
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./index.tex:166: You can't use `macro parameter character #' in horizontal mode
+.
+l.166 #################################
+                                       #################
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./index.tex:166: You can't use `macro parameter character #' in horizontal mode
+.
+l.166 ##################################
+                                        ################
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./index.tex:166: You can't use `macro parameter character #' in horizontal mode
+.
+l.166 ###################################
+                                         ###############
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./index.tex:166: You can't use `macro parameter character #' in horizontal mode
+.
+l.166 ####################################
+                                          ##############
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./index.tex:166: You can't use `macro parameter character #' in horizontal mode
+.
+l.166 #####################################
+                                           #############
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./index.tex:166: You can't use `macro parameter character #' in horizontal mode
+.
+l.166 ######################################
+                                            ############
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./index.tex:166: You can't use `macro parameter character #' in horizontal mode
+.
+l.166 #######################################
+                                             ###########
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./index.tex:166: You can't use `macro parameter character #' in horizontal mode
+.
+l.166 ########################################
+                                              ##########
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./index.tex:166: You can't use `macro parameter character #' in horizontal mode
+.
+l.166 #########################################
+                                               #########
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./index.tex:166: You can't use `macro parameter character #' in horizontal mode
+.
+l.166 ##########################################
+                                                ########
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./index.tex:166: You can't use `macro parameter character #' in horizontal mode
+.
+l.166 ###########################################
+                                                 #######
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./index.tex:166: You can't use `macro parameter character #' in horizontal mode
+.
+l.166 ############################################
+                                                  ######
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./index.tex:166: You can't use `macro parameter character #' in horizontal mode
+.
+l.166 ...#########################################
+                                                  #####
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./index.tex:166: You can't use `macro parameter character #' in horizontal mode
+.
+l.166 ...#########################################
+                                                  ####
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./index.tex:166: You can't use `macro parameter character #' in horizontal mode
+.
+l.166 ...#########################################
+                                                  ###
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./index.tex:166: You can't use `macro parameter character #' in horizontal mode
+.
+l.166 ...#########################################
+                                                  ##
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./index.tex:166: You can't use `macro parameter character #' in horizontal mode
+.
+l.166 ...#########################################
+                                                  #
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./index.tex:166: You can't use `macro parameter character #' in horizontal mode
+.
+l.166 ...#########################################
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./index.tex:172: Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   ^
+l.172 Y1<-x0*2^
+               (time/T1)
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./index.tex:177: Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.177 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (55.81836pt too wide) in paragraph at lines 162--177
+[]\tenrm ```r swisspop<-8e6 time<-seq(1,400,by=1) tag<-1:length(cases)  T1<-1 T
+2<-2 T3<-3 T7<-7 x0<-100 Y1<-x0*2$[]\teni time=T\tenrm 1)\teni Y\tenrm 2 \teni 
+<|
+
+\hbox(8.87892+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm \ (ligature ``)
+.\tenrm `
+.\tenrm r
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.etc.
+
+./index.tex:182: You can't use `macro parameter character #' in horizontal mode
+.
+l.182 #
+       # abline(h=swisspop,lty=5,col="red")
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./index.tex:182: You can't use `macro parameter character #' in horizontal mode
+.
+l.182 ##
+         abline(h=swisspop,lty=5,col="red")
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+Overfull \hbox (22.21846pt too wide) in paragraph at lines 178--184
+[]\tenrm plot(time,Y1,type="l",ylab="cases",ylim=c(100,10000),xlab="days",las=1
+) lines(time,Y3,col="red",lty=2)|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm p
+.\tenrm l
+.\tenrm o
+.\tenrm t
+.etc.
+
+
+Overfull \hbox (39.07951pt too wide) in paragraph at lines 178--184
+\tenrm lines(time,Y2,lty=2) lines(time,Y7,lty=3)  abline(h=swisspop,lty=5,col="
+red") points(tag,cases,type="l",col="red") |
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm l
+.\tenrm i
+.\tenrm n
+.\tenrm e
+.\tenrm s
+.etc.
+
+./index.tex:186: Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   ^
+l.186 at.y <- outer(1:9, 10^
+                            (2:9))
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./index.tex:196: Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.196 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (28.13515pt too wide) in paragraph at lines 185--196
+[]\tenrm plot(time,Y1,log="y",type="l",ylab="cases",xlab="days",axes=FALSE,ylim
+=c(100,40000)) at.y <- outer(1:9,|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm p
+.\tenrm l
+.\tenrm o
+.\tenrm t
+.etc.
+
+
+Overfull \hbox (13.28627pt too wide) in paragraph at lines 185--196
+\tenrm 10$[]2 : 9))\teni lab:y < \tensy ^^@\teni ifelse\tenrm (\teni log\tenrm 
+10(\teni at:y\tenrm )\teni axis\tenrm (2\teni ; at \tenrm = \teni at:y; labels 
+\tenrm = \teni lab:y; las \tenrm = 2)\teni axis\tenrm (1\teni ; time\tenrm )\te
+ni lines\tenrm (\teni time; Y\tenrm 2\teni ; lty \tenrm =|
+
+\hbox(8.87892+2.5)x469.75499
+.\tenrm 1
+.\tenrm 0
+.\mathon
+.\hbox(5.25+1.75)x3.62502, shifted -3.62892
+..\sevenrm (
+.\tenrm 2
+.etc.
+
+
+Overfull \hbox (131.40388pt too wide) in paragraph at lines 199--205
+\tenrm in-di-cates ex-po-nen-tial growth. [Quelle](https://www.arcgis.com/apps/
+opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6)**. |
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm i
+.\tenrm n
+.\discretionary
+..\tenrm -
+.\tenrm d
+.\tenrm i
+.etc.
+
+./index.tex:206: You can't use `macro parameter character #' in vertical mode.
+l.206 #
+        Auswirkung Vorfaktor
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ¼ in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ¤ in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ¤ in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ¤ in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ¤ in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ¤ in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ¤ in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ¤ in font cmr10!
+./index.tex:245: Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   ^
+l.245 plot(time,2^
+                  (0.33*time),ylab="cases",xlab="days",type="l",ylim=c(0,100...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./index.tex:249: Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.249 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (6.39047pt too wide) in paragraph at lines 244--249
+[]\tenrm ```r plot(time,2$[]0\teni :\tenrm 33 \tensy ^^C \teni time\tenrm )\ten
+i ; ylab \tenrm = "\teni cases\tenrm "\teni ; xlab \tenrm = "\teni days\tenrm "
+\teni ; type \tenrm = "\teni l\tenrm "\teni ; ylim \tenrm = \teni c\tenrm (0\te
+ni ; \tenrm 10000))\teni lines\tenrm (\teni time; \tenrm 0\teni :\tenrm 1 \tens
+y ^^C|
+
+\hbox(8.87892+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm \ (ligature ``)
+.\tenrm `
+.\tenrm r
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.etc.
+
+)
+! Emergency stop.
+<*> \input index.tex
+                    
+*** (job aborted, no legal \end found)
+
+!  ==> Fatal error occurred, no output PDF file produced!
