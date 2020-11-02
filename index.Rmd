@@ -120,13 +120,14 @@ with $t$: time, $\tau$: $e$-folding time, $T$: doubling time, $k$: growth consta
 
 ## Inzidenz und kumulierte Inzidenz
 
-```{r fig.show="hold"} 
+```{r fig.show="hold",out.width="32%"} 
 data<-read.csv("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv",check.names=FALSE)
 sw<-data[data$"Country/Region"=="Switzerland",-c(1,2,3,4)]
 cases<-as.numeric(sw[-c(1:42)])
 incid<-diff(cases)
 plot(1:length(incid),incid,type="l",col="red",lwd=2,xlab="Tage")
 plot(1:length(cases),cases,type="l",col="red",lwd=2,xlab="Tage")
+plot(1:length(cases),log(cases),type="l",col="red",lwd=2,xlab="Tage")
 ```
 
 
