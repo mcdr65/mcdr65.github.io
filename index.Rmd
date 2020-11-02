@@ -1,15 +1,11 @@
 ---
 title: "Exponential Growth COVID 19 in Switzerland"
 author: "Andre Meichtry"
+date: "`r Sys.Date()`"
 output:
   html_document:
-    number_sections: yes 
-    #self_contained: yes
-    #toc: yes
-    #toc_depth: 3
-    #toc_float:
-    #  collapsed: no
-date: "`r Sys.Date()`"
+    number_sections: yes
+  pdf_document: default
 ---
 
 
@@ -137,7 +133,7 @@ plot(1:length(cases),log(cases),type="l",col="red",lwd=2,xlab="Tage")
 
 ```{r fig.show="hold"} 
 swisspop<-8e6
-time<-seq(1,40,by=1)
+time<-seq(1,60,by=1)
 tag<-1:length(cases)
 T1<-1
 T2<-2
@@ -200,8 +196,8 @@ delay<-log(0.1)/log(1.3)
 delay
 delay2<-log(0.01)/log(1.3)
 delay2
-plot(time,2^(0.33*time),ylab="cases",xlab="days",type="l",ylim=c(0,10000))
-lines(time,0.1*2^(time/3),lty=2)
-lines(time,0.01*2^(time/3),lty=3)
+plot(time,2^(0.33*time),ylab="cases",xlab="days",type="l",ylim=c(0,10000),col=3)
+lines(time,0.1*2^(time/3),lty=1,col=1)
+lines(time,0.01*2^(time/3),lty=1,col=2,lwd=2)
 ```
  
