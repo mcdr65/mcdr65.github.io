@@ -123,7 +123,7 @@ incid<-diff(cases)
 t<-1:length(incid)
 incidAv<-broman::runningmean(t,incid,window=7,what="mean")
 plot(t,incid,type="l",col="blue",lty=2,xlab="Tage")
-lines(t,incidAv,col="red")
+lines(t,incidAv,col="red",lwd=2)
 plot(1:length(cases),cases,type="l",col="blue",lwd=2,xlab="Tage")
 plot(1:length(cases),log(cases),type="l",col="blue",lwd=2,xlab="Tage")
 ```
