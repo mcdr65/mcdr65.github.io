@@ -121,7 +121,7 @@ sw<-data[data$"Country/Region"=="Switzerland",-c(1,2,3,4)]
 cases<-as.numeric(sw[-c(1:42)])
 incid<-diff(cases)
 t<-1:length(incid)
-ma <- function(x, n = 7){stats::filter(x, rep(1 / n, n), sides = 2)}
+ma <- function(x, n = 7){stats::filter(x, rep(1 / n, n), sides = 2)}  ##moving average over 7 days
 incidAv<-ma(incid)
 plot(t,incid,type="l",col="blue",lty=2,xlab="Tage")
 lines(t,incidAv,col="red",lwd=2)
