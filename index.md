@@ -1,7 +1,7 @@
 ---
 title: "Exponential Growth COVID 19"
 author: "Andre Meichtry"
-date: "`r Sys.Date()`"
+date: "2021-02-17"
 output:
   html_document:
     number_sections: yes
@@ -9,10 +9,7 @@ output:
 
 
 
-```{r chunk_setup, include=FALSE, eval=TRUE}
-knitr::opts_chunk$set(echo =TRUE, out.width="50%",message=F, warning=F, comment=NA,
-                      eval=TRUE, cache.rebuild=F, cache=F, R.options=list(digits=5,show.signif.stars=FALSE),dev.args=list(bg = 'transparent'))
-```
+
 
 *The greatest shortcoming of the human race is the inability to
   understand the exponential function. (Al Bartlett)*
@@ -29,7 +26,8 @@ bringen, wenn das Stadion noch viel grösser wäre; wir haben
 
 
 
-```{r }
+
+```r
 max <- 3e06*20e06 ##Volumen Allianz-Arena
 halb <- max/2
 max2<-max*2
@@ -44,6 +42,8 @@ abline(h=halb,lty=2,col="blue")
 abline(v=t[448],lty=2,col="blue")
 ```
 
+<img src="figure/unnamed-chunk-1-1.png" title="plot of chunk unnamed-chunk-1" alt="plot of chunk unnamed-chunk-1" width="50%" />
+
 
 
 # Exponentialfunktion
@@ -51,12 +51,15 @@ abline(v=t[448],lty=2,col="blue")
 **Jede Exponentialfunktion $a^x$ mit $a>1$ wächst ab einem gewissen
 $x$ schneller als jede lineare Funktion $a+bx$**.
 
-```{r }
+
+```r
 curve(10*x,from=0,to=60,ylab="y")
 curve(20*x,add=TRUE,lty=2)
 curve(2^x,add=TRUE,lty=3)
 curve(1.2^x,add=TRUE,lty=4)
 ```
+
+<img src="figure/unnamed-chunk-2-1.png" title="plot of chunk unnamed-chunk-2" alt="plot of chunk unnamed-chunk-2" width="50%" />
 
 # Exponentielles Wachstum
 
@@ -113,7 +116,8 @@ with $t$: time, $\tau$: $e$-folding time, $T$: doubling time, $k$: growth consta
 
 ## Inzidenz und kumulierte Inzidenz
 
-```{r fig.show="hold",out.width="32%"} 
+
+```r
 data<-read.csv("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv",check.names=FALSE)
 sw<-data[data$"Country/Region"=="Switzerland",-c(1,2,3,4)]
 cases<-as.numeric(sw[-c(1:42)])
@@ -127,12 +131,15 @@ plot(1:length(cases),cases,type="l",col="blue",lwd=2,xlab="Tage")
 plot(1:length(cases),log(cases),type="l",col="blue",lwd=2,xlab="Tage")
 ```
 
+<img src="figure/unnamed-chunk-3-1.png" title="plot of chunk unnamed-chunk-3" alt="plot of chunk unnamed-chunk-3" width="32%" /><img src="figure/unnamed-chunk-3-2.png" title="plot of chunk unnamed-chunk-3" alt="plot of chunk unnamed-chunk-3" width="32%" /><img src="figure/unnamed-chunk-3-3.png" title="plot of chunk unnamed-chunk-3" alt="plot of chunk unnamed-chunk-3" width="32%" />
+
 
 
 ## Erste Welle Covid-19
 
 
-```{r fig.show="hold"} 
+
+```r
 swisspop<-8e6
 time<-seq(1,60,by=1)
 tag<-1:length(cases)
@@ -164,6 +171,8 @@ abline(h=swisspop,col="red",lty=3)
 points(tag,cases,type="l",col="red")
 ```
 
+<img src="figure/unnamed-chunk-4-1.png" title="plot of chunk unnamed-chunk-4" alt="plot of chunk unnamed-chunk-4" width="50%" /><img src="figure/unnamed-chunk-4-2.png" title="plot of chunk unnamed-chunk-4" alt="plot of chunk unnamed-chunk-4" width="50%" />
+
  **Erste Welle. Example of doubling times: 1 day (solid), 2
       days (dashed), 3 days (red), seven days (dotted), with reported cases Covid19
       in
@@ -192,13 +201,30 @@ $0.01\times 2^{0.33t}=0.01\times (2^{0.33})^t=0.01\times
 1.3^t=1.3^{\log_{1.3}0.01}1.3^t=1.3^{t+\log_{1.3}0.01}=1.3^{t-17.552}$
 
 
-```{r }
+
+```r
 delay<-log(0.1)/log(1.3)
 delay
+```
+
+```
+[1] -8.7763
+```
+
+```r
 delay2<-log(0.01)/log(1.3)
 delay2
+```
+
+```
+[1] -17.553
+```
+
+```r
 plot(time,2^(0.33*time),ylab="cases",xlab="days",type="l",ylim=c(0,10000),col=3)
 lines(time,0.1*2^(time/3),lty=1,col=1)
 lines(time,0.01*2^(time/3),lty=1,col=2,lwd=2)
 ```
+
+<img src="figure/unnamed-chunk-5-1.png" title="plot of chunk unnamed-chunk-5" alt="plot of chunk unnamed-chunk-5" width="50%" />
  
